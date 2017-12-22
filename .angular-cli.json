@@ -9,7 +9,12 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        {
+          "glob": "**/*",
+          "input": "./stencil/www/build/app",
+          "output": "./app"
+        }
       ],
       "index": "index.html",
       "main": "main.ts",
